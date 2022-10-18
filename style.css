@@ -1,0 +1,305 @@
+body{
+	margin: 0;
+	font-family: 'Oswald';
+}
+
+.head-fon{
+	height: 605px;
+	background-image: url(images/fon-first.svg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+.head-fon img{
+	width: 30px;
+}
+
+.logotip{
+margin: 20px 0 0 240px;
+}
+
+.logo-list{
+margin: 30px  0 0 740px;
+}
+
+h1{
+	font-weight: 500;
+	font-size: 50px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.head-h1{
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.reklama{
+	width: 900px;
+	height: 250px;
+	background: #F7F7F7;
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	position: absolute;
+	bottom: 0;
+	left: 175px;
+}
+
+.reklama div{
+	width: 180px;
+	height: 160px;
+	text-align: center;
+}
+
+.rek-h1{
+	font-weight: 500;
+	font-size: 72px;
+	text-align: center;
+	color: #F7654A;
+	margin: 0;
+}
+
+.rek-h2{
+	font-weight: 500;
+	font-size: 36px;
+	margin: 0;
+
+}
+
+.rek-h3{
+	font-weight: 500;
+	font-size: 18px;
+	color: #999999;
+	margin: 0;
+}
+
+h2{
+	font-weight: 500;
+	font-size: 36px;
+	text-align: center;
+	color: #404149;
+	margin: 80px 0;
+}
+
+.container{
+	display: flex;
+	justify-content: center;
+	gap: 25px;
+}
+
+.razprom-img{
+	width: 250px;
+	height: 260px;
+	margin-bottom: 20px;
+
+}
+
+.gazprom-4erta{
+	width: 35px;
+	height: 5px;
+}
+
+.gazprom{
+	width: 250px;
+	height: 630px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.gazprom p{
+	font-weight: 500;
+	font-size: 24px;
+	color: #404149;
+}
+
+.gazprom span{
+	font-weight: 400;
+	font-size: 16px;
+	color: #999999;
+}
+
+.navi{
+	height:180px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	background-color: #F7654A;
+}
+
+.navi-h1{
+	font-weight: 700;
+	font-size: 48px;
+	color: #FFFFFF;
+	margin: 0;
+}
+
+.navi-p{
+	font-weight: 700;
+	font-size: 24px;
+	color: #FFFFFF;
+	margin: 0;
+}
+
+.navi button{
+	font-family: Oswald;
+	font-weight: 500;
+	font-size: 14px;
+	color: #000000;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	padding: 10px 25px;
+}
+
+.work{
+	font-family: 'Oswald';
+	font-weight: 500;
+	font-size: 36px;
+	text-align: center;
+	margin-top: 100px;
+}
+
+.construction{
+	width: 80%;
+	margin: 0 auto;
+	gap: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+
+.construction div{
+	width: 280px;
+	height: 180px;
+	background-color: #F7F7F7;
+	text-align: center;
+	font-family: 'Oswald';
+	font-weight: 500;
+	font-size: 21px;
+	padding-top: 35px;
+
+}
+
+.fon-xx{
+	margin-top: 100px;
+	height: 538px;
+	background-image: url(images/fon-second.svg);
+	background-size: 316px;
+}
+
+.question h2{
+	font-family: 'Oswald';
+	font-size: 26px;
+	text-align: center;
+	margin-top: 120px;
+
+}
+
+.question h3{
+	font-family: 'Oswald';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+color: #F7654A;
+}
+
+.polygon{
+	display: flex;
+	gap: 15px;
+}
+
+.polygon-h3{
+	display: flex;
+	gap: 15px;
+}
+
+.polygon-2 p{
+	font-family: 'Open Sans';
+	color: #999999;
+}
+
+.question{
+	width: 60%;
+	margin-left: 10%;
+}
+
+.bershka{
+	background-image: url(images/fon-three.svg);
+	background-size: cover;
+	margin: 5%;
+	padding: 5%;
+
+}
+
+.bershka h2{
+	font-family: 'Oswald';
+	font-size: 26px;
+	color: #FFFFFF;
+	text-align: center;
+	margin: 0 0 3% 0;
+}
+
+.bershka div{
+	display: flex;
+	gap: 45px;
+	justify-content: center ;
+}
+
+.bershka img{
+	width: 11%;
+}
+
+.otzyv h2{
+	ont-family: 'Oswald';
+	font-size: 26px;
+	color: #000000;
+	text-align: center;
+}
+
+.arena p{
+	font-family: 'Open Sans';
+	font-size: 13px;
+	color: #999999;
+}
+
+.arena{
+	background: #F7F7F7;
+	width: 280px;
+	padding: 2%;
+}
+
+.arena-p{
+	font-family: 'Oswald';
+	font-weight: 500;
+	font-size: 19px;
+}
+
+.gazprom-arena span{
+	color: #F7654A
+}
+
+.gazprom-arena{
+	display: flex;
+	justify-content: center;
+	gap: 35px;
+	margin-bottom: 100px;
+}
+
+.contact{
+	display: flex;
+	justify-content: center;
+	gap: 25px;
+}
+
+.contact img{
+	width: 200px;
+}
+
+.footer img{
+	width: 100%;
+	margin-top: 110px;
+}
